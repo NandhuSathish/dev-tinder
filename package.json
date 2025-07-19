@@ -1,0 +1,25 @@
+{
+    "name": "dev-tinder",
+    "version": "1.0.0",
+    "description": "project as the part of the namaste node js course",
+    "homepage": "https://github.com/NandhuSathish/dev-tinder#readme",
+    "bugs": {
+        "url": "https://github.com/NandhuSathish/dev-tinder/issues"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/NandhuSathish/dev-tinder.git"
+    },
+    "license": "ISC",
+    "author": "nandhu sathish",
+    "type": "module",
+    "main": "index.js",
+    "scripts": {
+        "start": "node src/app.js ",
+        "dev": "nodemon src/app.js "
+    },
+    "dependencies": {
+        "express": "^5.1.0",
+        "nodemon": "^3.1.10"
+    }
+}
